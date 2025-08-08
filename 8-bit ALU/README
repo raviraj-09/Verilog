@@ -1,0 +1,22 @@
+8-bit ALU with Verilog Testbench
+📌 Project Overview
+This project implements an 8-bit Arithmetic Logic Unit (ALU) in Verilog, along with a comprehensive testbench that validates its functionality for various arithmetic operations. The design is written in Verilog HDL and can be simulated using tools like ModelSim, Vivado, or Icarus Verilog.
+
+The ALU supports:
+Addition (4'b0000)
+Subtraction (4'b0001)
+Multiplication (4'b0010)
+Division (4'b0011)
+Invalid operation handling (default case)
+Division by zero detection (outputs 0xAC)
+
+📂 Files Included
+alu_8bit.sv → ALU design module.
+alu_8bit_tb.sv → Self-checking testbench with multiple test cases.
+
+⚙ Features
+Synchronous design with clock and reset.
+Carry flag support for addition.
+Self-checking testbench with $error reporting.
+Covers edge cases like overflow, zero operands, and division by zero.
+Easily extensible to add more ALU operations.
