@@ -20,3 +20,11 @@ Carry flag support for addition.
 Self-checking testbench with $error reporting.
 Covers edge cases like overflow, zero operands, and division by zero.
 Easily extensible to add more ALU operations.
+
+EDA Playground Demo
+You can view and run this design directly in your browser via EDA Playground—no local setup required:
+https://www.edaplayground.com/x/jHuA
+This link takes you to a live simulation environment where you can:
+Edit both design and testbench code
+Choose from a variety of simulators (e.g., Icarus Verilog)
+Run the simulation and observe the results immediately
