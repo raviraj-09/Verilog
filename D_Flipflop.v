@@ -6,7 +6,7 @@ module D_Flipflop (
     output Q_bar
 );
 
-always @(posedge clk or negedge rst) begin
+    always @(posedge clk or negedge rst) begin        // asynchronuous reset
     if (!rst)
         Q <= 1'b0;
     else
